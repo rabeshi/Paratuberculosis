@@ -1,4 +1,4 @@
-# Reproducibility Package: Analytical Cohort
+# Reproducibility Package: Histopathological Classification of Paratuberculosis
 
 Everything needed to obtain, verify, and (if desired) regenerate the exact
 349-image analytical cohort (199 MAP-positive, 150 MAP-negative) used in this

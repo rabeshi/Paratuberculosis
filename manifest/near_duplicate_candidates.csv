@@ -1,0 +1,2 @@
+image_a,image_b,class_a,class_b,phash_hamming_distance,similarity,dimensions_a,dimensions_b,review_status,final_decision,decision_rationale
+Negative/132.jpg,Negative/143.jpg,Negative,Negative,2,0.9922,400x400,400x400,auto_decided,auto_exclude_verified_alternate_copy,Hamming distance 2 <= auto-exclude threshold 4 with matching class label.

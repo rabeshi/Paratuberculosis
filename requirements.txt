@@ -1,0 +1,8 @@
+# Minimal dependencies to reconstruct the analytical cohort (code/reconstruct_cohort.py).
+# This is intentionally a small subset of the full study's requirements.txt --
+# no torch/xgboost/timm/etc. are needed for dataset-integrity reconstruction.
+numpy>=1.24
+pandas>=2.0
+opencv-python>=4.8
+Pillow>=10.0
+PyYAML>=6.0

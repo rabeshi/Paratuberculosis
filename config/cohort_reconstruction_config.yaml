@@ -1,0 +1,23 @@
+# Parameters used to build the analytical cohort for this study.
+# Identical values to Claude_Runs/configs/experiment_config.yaml (near_duplicate
+# section) so that re-running this package reproduces the published cohort exactly.
+
+class_to_label:
+  Negative: 0
+  Positive: 1
+
+near_duplicate:
+  phash_hash_size: 16
+  hamming_threshold_candidate: 12    # below this: reported as a near-duplicate candidate
+  hamming_threshold_auto_exclude: 4  # below this AND same class: treated as a verified alternate copy
+
+expected:
+  n_original_total: 366
+  n_original_negative: 157
+  n_original_positive: 209
+  n_exact_duplicate_groups: 16
+  n_exact_duplicates_removed: 16
+  n_near_duplicates_removed: 1
+  n_cohort_total: 349
+  n_cohort_negative: 150
+  n_cohort_positive: 199

@@ -4,8 +4,7 @@ Everything needed to obtain, verify, and (if desired) regenerate the exact
 349-image analytical cohort (199 MAP-positive, 150 MAP-negative) used in this
 study, derived from the publicly available Mendeley dataset described below.
 
-This folder is self-contained and does not depend on the rest of
-`Claude_Runs/` (which additionally contains the full modeling pipeline —
+This folder is self-contained and contains the full modeling pipeline —
 Swin-Tiny/GLCM/XGBoost training, statistics, figures — not needed just to
 reconstruct the cohort).
 
@@ -135,21 +134,6 @@ re-runs exact- and near-duplicate detection with the exact thresholds in
   original dataset's CC BY 4.0 license; see `ATTRIBUTION.md` for the
   required attribution and a description of the changes made (duplicate
   removal only — no image content was altered).
-- To reproduce the full downstream analysis (preprocessing, model training,
-  statistics, figures) built on top of this cohort, see the parent
-  `Claude_Runs/README.md`.
-
-## Suggested manuscript Data Availability Statement
-
-> The images analyzed in this study are a curated subset of a third-party
-> dataset (Hananeh & Fraiwan, 2025; Mendeley Data, DOI: 10.17632/zjhymwjtxv.3;
-> CC BY 4.0), originally comprising 366 H&E-stained histopathology images. A
-> reproducibility package (code, cryptographic-hash manifests, and the
-> curated 349-image analytical cohort itself) is provided as supplementary
-> material, enabling exact reconstruction and verification of the analytical
-> cohort (150 MAP-negative, 199 MAP-positive) either directly from the
-> included files or independently from a fresh download of the original
-> dataset.
 
 ## How to cite this study
 
